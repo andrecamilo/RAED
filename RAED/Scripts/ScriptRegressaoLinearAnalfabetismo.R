@@ -1,7 +1,3 @@
-#Taxadeanalfabetismodapopulaode15anosoumais
-
-taxa
-
 x <- taxa$Localidade
 y <- taxa$"2015_per"
 
@@ -9,7 +5,7 @@ y <- taxa$"2015_per"
 plot(x, y)
 
 #modelo de regressao linear
-reg <- lm(y ~ x)
+regressao <- lm(y ~ x)
 summary(reg)
 
 reta <- function(x)(-5.020e-04) * x + (1.520e+00)
