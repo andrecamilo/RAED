@@ -23,3 +23,8 @@ summary(regressao)
 retaRegressao <- function(x) 3.286e+02 * x + 2.316e+05
 plot.function(retaRegressao, from = min(indep), to = max(indep))
 points(indep, dep)
+
+predicao <- retaRegressao(4000)
+predicao
+predicao <- retaRegressao(200)
+predicao
