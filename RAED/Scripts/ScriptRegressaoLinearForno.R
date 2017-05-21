@@ -1,3 +1,5 @@
+View(forno)
+
 dep <- forno$Energia
 indep <- forno$Producao
 
